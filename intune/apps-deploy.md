@@ -65,7 +65,7 @@ The following table lists the various options for assigning apps to users and de
    - **Available for enrolled devices**: Users install the app from the Company Portal app or website.
    - **Available with or without enrollment**: Assign this app to groups of users whose devices are not enrolled with Intune. Apps from Managed Google Play don't support this option. 
    - **Required**: The app is installed on devices in the selected groups.
-   - **Uninstall**: The app is uninstalled from devices in the selected groups.
+   - **Uninstall**: The app is uninstalled from devices in the selected groups. Android store Apps don't support this option
 
      > [!NOTE]
      > **For iOS apps only**: If you have created an iOS VPN profile that contains per-app VPN settings, you can select the VPN profile under **VPN**. When the app is run, the VPN connection is opened. For more information, see [VPN settings for iOS devices](vpn-settings-ios.md).
